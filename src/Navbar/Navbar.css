@@ -9,7 +9,7 @@
     animation: 1s ease 2s backwards fadeIn;
 }
 
-.link-contact{
+.home-link{
     flex-grow: 2;
     text-decoration: none;
     color: inherit;
@@ -18,8 +18,16 @@
     padding-left: 100px;
     
 }
+
+
 .link-text{
     text-decoration: none;
     color: inherit;
     padding: 10px 45px 0px;
+    
+}
+
+.link-text:hover{
+    transform: scale(1.5,1.5);
+    transition: transform 0.5s;
 }

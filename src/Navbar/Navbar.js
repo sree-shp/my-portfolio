@@ -4,7 +4,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div id="header">
-      <a className="link-contact" href="contact">
+      <a className="home-link" href="contact">
         SREEHARI
       </a>
       <a
