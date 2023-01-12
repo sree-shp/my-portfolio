@@ -4,7 +4,7 @@
     background-color: black;
     font-family: 'Roboto', sans-serif;
     color: white;
-    padding: 50px;
+    padding: 40px 40px 40px 150px;
     display: flex;
     animation: 1s ease 2s backwards fadeIn;
 }
@@ -15,19 +15,16 @@
     color: inherit;
     font-size: 2rem;
     font-weight: 600;
-    padding-left: 100px;
-    
 }
-
 
 .link-text{
     text-decoration: none;
     color: inherit;
     padding: 10px 45px 0px;
-    
+    font-weight: 500;
 }
 
 .link-text:hover{
-    transform: scale(1.5,1.5);
+    transform: scale(1.25,1.25);
     transition: transform 0.5s;
 }
