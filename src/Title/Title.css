@@ -19,7 +19,6 @@
 }
 
 .welcome-page{
-    
     position: absolute;
     top: 27%;
     left: 35%;
@@ -65,95 +64,64 @@
     animation: 1s ease 2s backwards fadeIn;
 }
 
-
 .background-elements div{
+    width: 1500px;
+    height: 100px;
+    rotate: -45deg;
     position: absolute;
-    width: 500px;
-    height: 25px;
-    border-radius: 30px;
-    rotate: 90deg;
-}
-
-.background-elements div:nth-child(1){
-    bottom: 200px;
-    left: 0px;;
-    z-index: 100;
+    z-index: -1000;
     
     background-image: linear-gradient(to bottom right,#5800FF,#72FFFF);
-    background-size: 300%;
-    background-position: left;
-    animation: 1s ease 2s backwards fadeIn, 10s linear infinite alternate bg-animate, 10s linear 2s infinite  moveUp;
+   
+    animation: 1s ease 2s backwards fadeIn;
+}
+
+
+.background-elements div:nth-child(1){
+    position: absolute;
+    top:-300px;
+    left: -600px;
 }
 
 .background-elements div:nth-child(2){
-    top: 200px;
-    left: 40px;
-    z-index: 100;
-    background-image: linear-gradient(to bottom left,#5800FF,#72FFFF);
-    animation: 1s ease 2s backwards fadeIn, 10s linear infinite alternate bg-animate, 10s linear 2s infinite  moveDown;
+    position: absolute;
+    top:-160px;
+    left: -600px;
 }
 
 .background-elements div:nth-child(3){
-    bottom: 200px;
-    left: 80px;;
-    z-index: 100;
-    background-image: linear-gradient(to bottom right,#5800FF,#72FFFF);
-    animation: 1s ease 2s backwards fadeIn, 10s linear infinite alternate bg-animate, 10s linear 2s infinite  moveUp;
+    position: absolute;
+    top:-20px;
+    left: -600px;
 }
 
 .background-elements div:nth-child(4){
-    top: 200px;
-    left: 120px;
-    z-index: 100;
-    background-image: linear-gradient(to bottom left,#5800FF,#72FFFF);
-    animation: 1s ease 2s backwards fadeIn, 10s linear infinite alternate bg-animate, 10s linear 2s infinite  moveDown;
+    position: absolute;
+    top: 121px;
+    left: -600px;
 }
 
 .background-elements div:nth-child(5){
-    bottom: 200px;
-    left: 160px;;
-    z-index: 100;
-    background-image: linear-gradient(to bottom right,#5800FF,#72FFFF);
-    animation: 1s ease 2s backwards fadeIn, 10s linear infinite alternate bg-animate, 10s linear 2s infinite  moveUp;
+    position: absolute;
+    top: 262px;
+    left: -600px;
 }
 
 .background-elements div:nth-child(6){
-    top: 200px;
-    left: 200px;
-    z-index: 100;
-    background-image: linear-gradient(to bottom left,#5800FF,#72FFFF);
-    animation: 1s ease 2s backwards fadeIn, 10s linear infinite alternate bg-animate, 10s linear 2s infinite  moveDown;
+    position: absolute;
+    top: 103px;
+    left: -300px;
 }
 
-@keyframes moveUp{
-    0%{
-        bottom: 400px ;
-    }
-    50%{
-        bottom: 40%;
-    }
-    100%{
-       bottom: 400px;
-    }
+.background-elements div:nth-child(7){
+    position: absolute;
+    top: 244px;
+    left: -300px;
 }
 
-@keyframes moveDown{
-   0%{
-    top: 400px;
-   }
-    50%{
-        top: 40%;
-    }
-    100%{
-       top: 400px;
-    }
+.background-elements div:nth-child(8){
+    position: absolute;
+    top: 300px;
+    left: -215px;
 }
 
-@keyframes bg-animate {
-    0%{
-        background-position: left;
-    }
-    100%{
-        background-position: right ;
-    }
-}

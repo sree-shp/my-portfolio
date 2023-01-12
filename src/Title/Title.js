@@ -19,6 +19,8 @@ function Title() {
         <div></div>
         <div></div>
         <div></div>
+        <div></div>
+        <div></div>
       </div>
     </div>
   );
