@@ -3,7 +3,7 @@
 
 #title{
     position: relative;
-    height: 700px;
+    height: 610px;
     background-color: black;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -15,36 +15,47 @@
     text-align: left;
     font-size: 5rem;
     font-weight: 800;
-    animation: 2s linear fadeIn;
+    animation: 2s linear fadeInTop;
 }
 
 .welcome-page{
     position: absolute;
-    top: 27%;
+    top: 15%;
     left: 35%;
     z-index: 500;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
     padding: 30px 5px;
-    animation:  1.5s ease 2s forwards  moveRight;
+    animation:  2s linear fadeIn, 1.5s ease 2s forwards  moveRight;
 }
 
 .description-heading{
-    animation: 1s ease 2s backwards fadeIn;
+    animation: 1s ease 2s backwards fadeInTop;
     font-size: 1.5rem;
     font-weight: 600;
 }
 
 .description{
-    animation: 1s ease 2s backwards fadeIn;
+    animation: 1s ease 2s backwards fadeInTop;
     font-size: 1.25rem;
 }
 
-@keyframes fadeIn{
+@keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100%{opacity: 1;
+    }
+}
+
+
+@keyframes fadeInRight{
     0%{
         opacity: 0;
         transform: translateX(20px);
     }
-    100%{opacity: 1;}
+    100%{opacity: 1;
+    }
 }
 
 @keyframes moveRight{
@@ -58,70 +69,35 @@
 
 .home-img{
     width: 800px;
+    height: 533px;
     position: absolute;
     right: 0px;
-    top: 50px;
-    animation: 1s ease 2s backwards fadeIn;
+    top: 0px;
+    animation: 1s ease 2.5s backwards fadeInRight;
+    
 }
 
-.background-elements div{
-    width: 1500px;
-    height: 100px;
-    rotate: -45deg;
+
+.background-element{
+    width: 2000px;
+    height: 1000px;
+    rotate: -50deg;
     position: absolute;
     z-index: -1000;
-    
+    top: -600px;
+    left: -625px;
     background-image: linear-gradient(to bottom right,#5800FF,#72FFFF);
-   
-    animation: 1s ease 2s backwards fadeIn;
+    background-size: 200%;
+    background-position: right;
+    animation: 1s ease 2s backwards fadeInRight, 15s linear infinite alternate bg-animate;
+}
+
+@keyframes bg-animate {
+    100%{
+        background-position: left;
+    }
 }
 
 
-.background-elements div:nth-child(1){
-    position: absolute;
-    top:-300px;
-    left: -600px;
-}
 
-.background-elements div:nth-child(2){
-    position: absolute;
-    top:-160px;
-    left: -600px;
-}
-
-.background-elements div:nth-child(3){
-    position: absolute;
-    top:-20px;
-    left: -600px;
-}
-
-.background-elements div:nth-child(4){
-    position: absolute;
-    top: 121px;
-    left: -600px;
-}
-
-.background-elements div:nth-child(5){
-    position: absolute;
-    top: 262px;
-    left: -600px;
-}
-
-.background-elements div:nth-child(6){
-    position: absolute;
-    top: 103px;
-    left: -300px;
-}
-
-.background-elements div:nth-child(7){
-    position: absolute;
-    top: 244px;
-    left: -300px;
-}
-
-.background-elements div:nth-child(8){
-    position: absolute;
-    top: 300px;
-    left: -215px;
-}
 

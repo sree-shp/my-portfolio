@@ -1,6 +1,6 @@
 import React from "react";
 import "./Title.css";
-import man from "../Title/man.png";
+import man from "../Title/man-min.png";
 
 function Title() {
   return (
@@ -12,16 +12,7 @@ function Title() {
         <p className="description">Creating classy websites is my passion</p>
       </div>
       <img className="home-img" src={man} alt="" />
-      <div className="background-elements">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
+      <div className="background-element"></div>
     </div>
   );
 }

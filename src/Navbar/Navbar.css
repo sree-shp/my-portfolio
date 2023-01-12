@@ -6,7 +6,7 @@
     color: white;
     padding: 50px;
     display: flex;
-    animation: 1s ease 2s backwards fadeIn;
+    animation: 1s ease 2s backwards fadeInRight;
     position: relative;
     z-index: 1;
     /* backdrop-filter: blur(7px); */
