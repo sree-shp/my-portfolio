@@ -69,12 +69,11 @@
 
 .home-img{
     width: 800px;
-    height: 533px;
+    /* height: 533px; */
     position: absolute;
     right: 0px;
     top: 0px;
     animation: 1s ease 2.5s backwards fadeInRight;
-    
 }
 
 
@@ -98,6 +97,9 @@
     }
 }
 
-
-
-
+@media (max-width: 1440px) and (min-width: 1024px){
+    .home-img{
+        width: 700px;
+        top: 25px;
+    }
+}

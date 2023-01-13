@@ -1,6 +1,6 @@
 .container{
     height: 700px;
-    background-color: white;
+    background-color: black;
     position: relative;
     z-index: 1;
 }
