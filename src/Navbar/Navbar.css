@@ -5,8 +5,13 @@
     font-family: 'Roboto', sans-serif;
     color: white;
     padding: 40px 40px 40px 150px;
-    display: flex;
+   
     animation: 1s ease 2s backwards fadeIn;
+}
+
+.header-wrap{
+    display: flex;
+    flex-direction: row; 
 }
 
 .home-link{
@@ -27,4 +32,80 @@
 .link-text:hover{
     transform: scale(1.25,1.25);
     transition: transform 0.5s;
+}
+
+.hamburger-icon-container{
+    display: none;
+    border: 1px solid white;
+    border-radius:  5px;
+    padding: 2px;
+}
+
+.hamburger-item{
+    display: none;
+}
+
+.active{
+    display: none !important;
+}
+
+.bar{
+    width: 25px;
+    height: 2px;
+    margin: 5px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+
+
+
+@media(max-width: 768px) and (min-width: 320px){
+    .hamburger-menu, .hamburger-icon-container{
+        display: block;
+    }
+
+    .link-text{
+        display: none;
+    }
+
+    #header{
+        padding: 25px 0px 25px ;
+    }
+
+    .home-link{
+        font-size: 1.75rem;
+    }
+
+    .header-wrap{
+        padding: 0px 25px;
+       
+    }
+
+    .hamburger-item{
+        display: block;
+        padding: 10px 0px;
+    }
+
+    .hamburger-wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 25px 0px 0px;  
+         
+    }
+
+    .hamburger-link{
+        text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    padding: 0px 25px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    #header{
+        padding: 25px 50px ;
+    }
 }
