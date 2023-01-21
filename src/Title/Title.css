@@ -75,7 +75,7 @@
     right: -31%;
     top: 10%;
     overflow: hidden;
-    animation: 1s ease 2.5s backwards fadeInRight;
+    animation: 1s ease 2s backwards fadeInRight;
 }
 
 
@@ -89,8 +89,8 @@
     top: -100%;
     left: -40%;
     background-image: linear-gradient(to bottom right,#5800FF,#72FFFF);
-    background-size: 200%;
-    background-position: right;
+    background-size: 300%;
+    background-position: bottom right;
     animation: 1s ease 2s backwards fadeInRight, 15s linear infinite alternate bg-animate;
 }
 

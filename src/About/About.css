@@ -1,6 +1,23 @@
-.container{
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#about{
     height: 700px;
     background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
     position: relative;
     z-index: 1;
+}
+
+.about-heading{
+    padding: 8% 6% 3% ;
+    font-size: 2vw;
+}
+
+.about-description{
+    margin: 3% 6%;
+    padding: 2% 5%;
+    font-size: 1.5vw;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
 }
