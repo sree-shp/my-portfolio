@@ -1,23 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 #about{
-    height: 700px;
+    height: 1000px;
     background-color: black;
     font-family: 'Roboto', sans-serif;
     color: white;
     position: relative;
     z-index: 1;
+    animation: 1s ease 2s backwards fadeInRight ;
+}
+
+.about-wrapper{
+    /* background-image: url(./ffflux.svg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100%{opacity: 1;
+    }
 }
 
 .about-heading{
-    padding: 8% 6% 3% ;
-    font-size: 2vw;
+    padding: 8% 6% 5% ;
+    font-size: 2.25vw;
 }
 
 .about-description{
-    margin: 3% 6%;
-    padding: 2% 5%;
+    padding: 8% 5%;
     font-size: 1.5vw;
-    background-color: rgb(24, 24, 24);
-    border-radius: 10px;
+    border-radius: 16px;
+}
+
+.to-right-background{
+    background-image: linear-gradient(to right, #0c0c0c,#1c1c1c);
+}
+
+.to-left-background{
+    background-image: linear-gradient(to left, #0c0c0c,#1c1c1c);
+}
+
+.about-row{
+    display: flex;
+    flex-direction: row;
+    margin: 0% 6%  5%;
+    gap: 4%;
+}
+
+.about-column{
+    display: flex;
+    align-items: center;
+}
+
+
+.icon{
+    width: 20vw;
 }
