@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#contact{
+    background-color: #151515 ;
+    height: 500px;
+    color: white;
+    font-family:  'Roboto', sans-serif;
+    padding: 6% 6% 6%;
+}
+
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 25px;
+    padding-bottom: 5%;
+}
+
+.contact-heading{
+    font-size: 3.5vw;
+    padding-bottom: 7%;
+}
+
+.contact-description{
+    font-size: 1.25vw;
+    line-height: 1.5;
+    padding-right: 25%;
+}
+
+.contact-form{
+    display: relative;
+}
+
+.form-label{
+    display: block;
+    padding-bottom: 0%;
+    padding-left: 4%;
+    font-size: 1.25vw;
+    font-weight: 500;
+    color: #746f6f;
+}
+
+.form-input{
+    margin-bottom: 5%;
+    background: none;
+    border: 0px ;
+    border-bottom: 1px solid;
+    width: 91%;
+    font-size: 1.5vw;
+    color: white;
+    padding: 2.5% 0% 2.5% 4%;
+}
+
+.form-input:focus{
+    outline: none;
+}
+
+.send-button{
+    display: inline;
+    background: #151515;
+    color: white;
+    border: 1px solid white;
+    border-radius: 32px;
+    padding: 10px 40px;
+    font-size: 1.25vw;
+    margin: 2% 0% 0% 70%;
+}
+
+.send-button:hover{
+    background-color: white;
+    color: black;
+}
