@@ -22,7 +22,7 @@ function Projects() {
               easy-to-navigate layout, allowing users to view the products they
               want to buy or browse through the categories.
             </p>
-            <div>
+            <div className="button-container">
               <a href="/">
                 <button>View Website</button>
               </a>
@@ -44,7 +44,7 @@ function Projects() {
               to use and efficient. Also allows to create multiple category
               based to-do-lists.
             </p>
-            <div>
+            <div className="button-container">
               <a href="/">
                 <button>View Website</button>
               </a>

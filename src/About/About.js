@@ -30,6 +30,9 @@ function About() {
         </div>
         <div className="about-row">
           <div className="about-column">
+            <img className="icon" src={education} alt="" />
+          </div>
+          <div className="about-column">
             <p className="about-description to-left-background">
               I'm currently pursuing a bachelor's degree in mechanical
               engineering, but I always wanted to pursue a computer science
@@ -41,9 +44,6 @@ function About() {
               on projects in Mongo Gb/ Express JS/ React JS/ Node JS (MERN
               stack).
             </p>
-          </div>
-          <div className="about-column">
-            <img className="icon" src={education} alt="" />
           </div>
         </div>
       </div>

@@ -24,7 +24,6 @@
     top: 15%;
     left: 35%;
     z-index: 500;
-    /* backdrop-filter: blur(10px); */
     padding: 30px 5px;
     animation:  2s linear fadeIn, 1.5s ease 2s forwards  moveRight;
 }
@@ -39,6 +38,32 @@
     animation: 1s ease 2s backwards fadeInTop;
     font-size: 1.40vw;
 }
+
+.home-img{
+    width: 40vw;
+    position: absolute;
+    right: -29%;
+    top: 10%;
+    overflow: hidden;
+    animation: 1s ease 2s backwards fadeInRight;
+}
+
+
+.background-element{
+    width: 175%;
+    height: 175%;
+    rotate: -55deg;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1000;
+    top: -100%;
+    left: -40%;
+    background-image: linear-gradient(to bottom right,#5800FF,#72FFFF);
+    background-size: 200%;
+    background-position: right;
+    animation: 1s ease 2s backwards fadeInRight, 15s linear infinite alternate bg-animate;
+}
+
 
 @keyframes fadeInTop{
     0%{
@@ -64,34 +89,8 @@
         left: 35%;
     }
     100%{
-        left: 8%;
+        left: 7%;
     }
-}
-
-.home-img{
-    width: 40vw;
-    /* height: 533px; */
-    position: absolute;
-    right: -31%;
-    top: 10%;
-    overflow: hidden;
-    animation: 1s ease 2s backwards fadeInRight;
-}
-
-
-.background-element{
-    width: 175%;
-    height: 175%;
-    rotate: -55deg;
-    overflow: hidden;
-    position: absolute;
-    z-index: -1000;
-    top: -100%;
-    left: -40%;
-    background-image: linear-gradient(to bottom right,#5800FF,#72FFFF);
-    background-size: 200%;
-    background-position: right;
-    animation: 1s ease 2s backwards fadeInRight, 15s linear infinite alternate bg-animate;
 }
 
 @keyframes bg-animate {
@@ -105,13 +104,13 @@
         width: 40vw;
     }
     .background-element{
-        left: -55%;
+        left: -50%;
     }
 }
 
 @media (min-width: 1200px) and (max-width: 1440px) {
     .background-element{
-        left: -57%;
+        left: -52%;
         rotate: -55deg;
     }
 }
@@ -120,13 +119,11 @@
     .home-img{
         width: 60%;
         top: 9%;
-        right: -31%;
+        right: -30%;
     }
-    #title{
-        height: 75vh
-    }
+    
     .background-element{
-        left: -55%;
+        left: -57%;
         rotate: -60deg;
     }
 
@@ -137,7 +134,6 @@
 
 @media (max-width: 1024px) and (min-width: 768px){
 
-   
     .home-img{
         width: 55%;
         top: 12%;
@@ -156,12 +152,9 @@
         font-size: 1.60vw;
     }
 
-    #title{
-        height: 65vh;
-    }
-
     .background-element{
-        left: -57%;
+        height: 200%;
+        left: -80%;
         rotate: -60deg;
     }
 }

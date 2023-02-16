@@ -3,17 +3,16 @@
 #header{
     font-family: 'Roboto', sans-serif;
     color: white;
-    padding: 40px 40px 40px 40px;
-   
+    padding:  3% 6%;
     animation: 1s ease 2s backwards fadeInRight;
     position: relative;
     z-index: 1;
-    /* backdrop-filter: blur(7px); */
 }
 
 .header-wrap{
     display: flex;
     flex-direction: row; 
+    align-items: center;
 }
 
 .home-link{
@@ -21,12 +20,8 @@
     text-decoration: none;
     color: inherit;
     font-size: 2.25vw;
-    font-weight: 600;
     font-weight: 800;
-    padding-left: 4%;
     z-index: 500;
-    color: white;
-    
 }
 
 .link-text{
@@ -66,14 +61,29 @@
     background-color: white;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 1200px) and (max-width: 1440px) {
     .home-link{
-        padding-left: 0.5%;
+        font-size: 2.25vw;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .home-link{
         font-size: 2.50vw;
     }
 
     .link-text{
-        font-size: 1.60vw;
+        font-size: 1.20vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .home-link{
+        font-size: 2.50vw;
+    }
+
+    .link-text{
+        font-size: 1.20vw;
         padding: 1% 2% 0%;
     }
 
@@ -83,49 +93,21 @@
     
 }
 
-@media (min-width: 1200px) and (max-width: 1440px) {
+@media (max-width: 768px) and (min-width: 425px){
+    #header{
+        padding: 6% 6% ;
+    }
+
     .home-link{
-        padding-left: 2.5%;
-        font-size: 2.25vw;
-        padding-left: 3.5%;
-    }
-    
-}
-
-@media (min-width: 1024px) and (max-width: 1200px) {
-    .home-link{
-        padding-left: 2%;
-        font-size: 2.50vw;
-        padding-left: 3.5%;
-    }
-
-    .link-text{
-        font-size: 1.50vw;
-    }
-    
-}
-
-@media(max-width: 768px) and (min-width: 425px){
-    .hamburger-menu, .hamburger-icon-container{
-        display: block;
+        font-size: 4vw;
     }
 
     .link-text{
         display: none;
     }
 
-    #header{
-        padding: 25px 0px 25px ;
-    }
-
-    .home-link{
-        font-size: 1.75rem;
-        padding-left: 2%;
-    }
-
-    .header-wrap{
-        padding: 0px 25px;
-       
+    .hamburger-menu, .hamburger-icon-container{
+        display: block;
     }
 
     .hamburger-item{
@@ -137,43 +119,32 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
-        padding: 25px 0px 0px;  
-         
+        padding: 3% 0%;  
     }
 
     .hamburger-link{
         text-decoration: none;
         color: inherit;
         font-weight: 500;
-        padding: 0px 25px 0px 6%;
     }
-
-    .home-link{
-        font-size: 3.5vw;
-       }
 }
 
 @media (min-width: 375px) and (max-width: 425px){
-    .hamburger-menu, .hamburger-icon-container{
-        display: block;
+
+    #header{
+        padding: 6% ;
+    }
+
+   .home-link{
+        font-size: 5.5vw;
+   }
+
+   .hamburger-menu, .hamburger-icon-container{
+    display: block;
     }
 
     .link-text{
         display: none;
-    }
-
-    #header{
-        padding: 25px 0px 25px ;
-    }
-
-    .home-link{
-        font-size: 1.75rem;
-        padding-left: 2%;
-    }
-
-    .header-wrap{
-        padding: 0px 25px;
-       
     }
 
     .hamburger-item{
@@ -185,71 +156,51 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
-        padding: 25px 0px 0px;  
-         
+        padding: 3% 0%;
     }
 
     .hamburger-link{
         text-decoration: none;
-    color: inherit;
-    font-weight: 500;
-    padding: 0px 25px;
+        color: inherit;
+        font-weight: 500;
     }
 
-   .home-link{
-    font-size: 5.5vw;
-    padding-top: 2.5px;
-    padding-left: 0.75%;
-   }
 }
 
 
 @media (min-width: 320px) and (max-width: 375px){
-    .hamburger-menu, .hamburger-icon-container{
-        display: block;
+    #header{
+        padding: 6% ;
+    }
+
+    .home-link{
+        font-size: 6vw;
+   }
+
+   .hamburger-menu, .hamburger-icon-container{
+    display: block;
     }
 
     .link-text{
         display: none;
     }
 
-    #header{
-        padding: 25px 0px 25px ;
-    }
-
-    .home-link{
-        font-size: 1.75rem;
-        padding-left: 2%;
-    }
-
-    .header-wrap{
-        padding: 0px 25px;
-       
-    }
-
     .hamburger-item{
         display: block;
-        padding: 10px 0px;
+        padding: 5px 0px;
     }
 
     .hamburger-wrap{
         display: flex;
         flex-direction: column;
         gap: 10px;
-        padding: 25px 0px 0px;  
-         
+        padding: 3% 0%; 
     }
 
     .hamburger-link{
         text-decoration: none;
-    color: inherit;
-    font-weight: 500;
-    padding: 0px 25px;
+        color: inherit;
+        font-weight: 500;
+        font-size: 3.5vw;
     }
-
-   .home-link{
-    font-size: 5.5vw;
-    padding-top: 2.5px;
-    padding-left: 0.75%;
-   }
 }
