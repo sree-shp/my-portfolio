@@ -21,10 +21,10 @@
 .welcome-page{
     position: absolute;
     top: 15%;
-    left: 35%;
+    left: 6%;
     z-index: 500;
     padding: 30px 5px;
-    animation:  2s linear fadeIn, 1.5s ease 2s forwards  moveRight;
+    animation:  2s linear fadeIn,;
 }
 
 .description-heading{
@@ -44,7 +44,7 @@
     right: 3%;
     top: 10%;
     overflow: hidden;
-    animation: 1s ease 2s backwards fadeInRight;
+    animation: 2s linear fadeInTop;
 }
 
 
