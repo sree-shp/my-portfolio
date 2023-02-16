@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#projects{
+    color: white;
+    background-color: black;    
+    font-family:  'Roboto', sans-serif;
+    padding: 0% 6% 6%;
+    animation: 1s ease 2s backwards fadeInRight ;
+}
+
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100%{opacity: 1;
+    }
+} 
+
+.projects-heading{
+    padding: 5% 0% 5% ;
+    font-size: 3vw;
+}
+
+.projects-wrapper{
+    display: grid;
+    grid-template-columns: auto;
+    align-content: center;
+    gap: 50px;
+}
+
+.project-img{
+    width: 100%;
+    height: 100%;
+}
+
+.projects-row{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 25px;
+    background-color: #151515;
+    padding: 1.5% 1.5%;
+    border-radius: 16px;
+}
+
+.projects-left{
+    flex-grow: 1;
+}
+
+.projects-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.project-title{
+    font-size: 2vw;
+    padding-top: 2%;
+}
+
+.projects-description{
+    font-size: 1.25vw;
+    margin-right: 8%;
+    text-align: justify;
+}
+
+.projects-right button {
+    background: black;
+    display: inline-block;
+    width: 44%;
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: inherit;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 50px 10px 50px;
+    margin: 0px 30px 0px 0px;
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .project-right button:hover {
+    background: white;
+    color: black;
+    text-decoration: none;
+  }
+
+  .projects-row:hover{
+    transform: scale(1.02);
+    transition: transform 0.5s;
+  }
+
+  
