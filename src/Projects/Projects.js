@@ -1,8 +1,6 @@
 import React from "react";
 import "./Projects.css";
 import amazon from "../Projects/amazon-clone.png";
-import news from "../Projects/news landing page.png";
-import subscription from "../Projects/subscription form.png";
 import todo from "../Projects/to-do-list.png";
 
 function Projects() {
