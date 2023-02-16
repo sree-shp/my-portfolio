@@ -14,7 +14,7 @@ function Title() {
         </p>
       </div>
       <img className="home-img" src={man} alt="" />
-      <div className="background-element"></div>
+      {/* <div className="background-element"></div> */}
     </div>
   );
 }

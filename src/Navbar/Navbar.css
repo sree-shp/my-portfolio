@@ -45,6 +45,10 @@
     padding: 2px;
 }
 
+.hamburger-menu{
+    padding: 2.5%;
+}
+
 .hamburger-item{
     display: none;
 }

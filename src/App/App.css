@@ -2,3 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+.first-section{
+    background-image: -webkit-linear-gradient(65deg, #5800FF , #72FFFF );
+    background-size: 200%;      
+}
