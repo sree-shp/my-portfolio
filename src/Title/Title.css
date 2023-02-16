@@ -89,7 +89,7 @@
     top: -100%;
     left: -40%;
     background-image: linear-gradient(to bottom right,#5800FF,#72FFFF);
-    background-size: 400%;
+    background-size: 200%;
     background-position: right;
     animation: 1s ease 2s backwards fadeInRight, 15s linear infinite alternate bg-animate;
 }

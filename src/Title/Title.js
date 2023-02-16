@@ -9,7 +9,9 @@ function Title() {
         <h1 className="welcome-heading">HI,</h1>
         <h2 className="welcome-heading">I'M SREEHARI</h2>
         <p className="description-heading">FRONTEND DEVELOPER</p>
-        <p className="description">Creating classy websites is my passion</p>
+        <p className="description">
+          I design and code beautifully simple websites
+        </p>
       </div>
       <img className="home-img" src={man} alt="" />
       <div className="background-element"></div>

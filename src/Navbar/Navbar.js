@@ -39,13 +39,13 @@ function Navbar() {
           className="link-text"
           href="https://www.linkedin.com/in/sreehari-prasad-k-819a49235/"
         >
-          ABOUT
+          LINKEDIN
         </a>
         <a className="link-text" href="https://github.com/sree-shp">
-          PROJECTS
+          GITHUB
         </a>
         <a className="link-text" href="mailto:sree2512k@gmail.com">
-          CONTACT
+          E-MAIL
         </a>
       </div>
       <div className="hamburger-wrap active">
@@ -54,17 +54,17 @@ function Navbar() {
             className="hamburger-link"
             href="https://www.linkedin.com/in/sreehari-prasad-k-819a49235/"
           >
-            ABOUT
+            LINKEDIN
           </a>
         </div>
         <div className="hamburger-item">
           <a className="hamburger-link" href="https://github.com/sree-shp">
-            PROJECTS
+            GITHUB
           </a>
         </div>
         <div className="hamburger-item">
           <a className="hamburger-link" href="mailto:sree2512k@gmail.com">
-            CONTACT
+            E-MAIL
           </a>
         </div>
       </div>
