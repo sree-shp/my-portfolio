@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
-import amazon from "../Projects/amazon-clone.png";
-import todo from "../Projects/to-do-list.png";
+import fash from "../Projects/fash landing page.png";
+import wnews from "../Projects/news landing page.png";
 
 function Projects() {
   return (
@@ -10,7 +10,7 @@ function Projects() {
       <div className="projects-wrapper">
         <div className="projects-row">
           <div className="projects-left">
-            <img src={amazon} alt="" className="project-img" />
+            <img src={fash} alt="" className="project-img" />
           </div>
           <div className="projects-right">
             <h3 className="project-title">FASH - CLOTHING STORE</h3>
@@ -21,10 +21,10 @@ function Projects() {
               want to buy or browse through the categories.
             </p>
             <div className="button-container">
-              <a href="/">
+              <a href="https://fash-clothing-store.netlify.app/">
                 <button>View Website</button>
               </a>
-              <a href="/">
+              <a href="https://github.com/sree-shp/fash-e-commerce">
                 <button>View Code</button>
               </a>
             </div>
@@ -32,21 +32,19 @@ function Projects() {
         </div>
         <div className="projects-row">
           <div className="projects-left">
-            <img src={todo} alt="" class="project-img" />
+            <img src={wnews} alt="" class="project-img" />
           </div>
           <div className="projects-right">
-            <h3 class="project-title">TO-DO LIST</h3>
+            <h3 class="project-title">W-NEWS LANDING PAGE</h3>
             <p className="projects-description">
-              Allows users to enter new tasks, delete old tasks and strike off
-              the finished tasks. The user interface is simple, but it is easy
-              to use and efficient. Also allows to create multiple category
-              based to-do-lists.
+              W-News is a clean, attractive and easy to use news website that is
+              responsive and built using Bootstrap.
             </p>
             <div className="button-container">
-              <a href="/">
+              <a href="https://w-news-home.netlify.app/">
                 <button>View Website</button>
               </a>
-              <a href="/">
+              <a href="https://github.com/sree-shp/w-news">
                 <button>View Code</button>
               </a>
             </div>

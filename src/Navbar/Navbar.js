@@ -24,9 +24,9 @@ function Navbar() {
   return (
     <div id="header">
       <div className="header-wrap">
-        <a className="home-link" href="contact">
+        <p className="home-link" to="/">
           SREEHARI
-        </a>
+        </p>
         <div className="hamburger-menu">
           <div className="hamburger-icon-container">
             <div className="bar"></div>
