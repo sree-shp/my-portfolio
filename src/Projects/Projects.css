@@ -32,14 +32,15 @@
 }
 
 .project-img{
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     border-radius: 16px;
+    object-fit: cover;
 }
 
 .projects-row{
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
     gap: 25px;
     background-color: #151515;
     padding: 1.5% 1.5%;
@@ -77,7 +78,7 @@
     /* justify-content: space-between ; */
 }
 
-.projects-right button {
+.button-container button {
     background: black;
     width: 100%;
     display: inline-block;
@@ -94,7 +95,7 @@
     text-decoration: none;
   }
   
-  .project-right button:hover {
+  .button-container button:hover {
     background: white;
     color: black;
     text-decoration: none;

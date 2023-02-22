@@ -13,8 +13,6 @@ function Navbar() {
     );
     const hamburgerWrap = document.getElementsByClassName("hamburger-wrap");
 
-    console.log(hamburgerIcon);
-
     hamburgerIcon[0].addEventListener("click", function () {
       setState();
       hamburgerWrap[0].classList.toggle("active");
