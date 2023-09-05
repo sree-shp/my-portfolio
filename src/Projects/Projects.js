@@ -21,10 +21,10 @@ function Projects() {
               want to buy or browse through the categories.
             </p>
             <div className="button-container">
-              <a href="https://fash-clothing-store.netlify.app/">
+              <a href="https://fash-store.vercel.app/">
                 <button>View Website</button>
               </a>
-              <a href="https://github.com/sree-shp/fash-e-commerce">
+              <a href="https://github.com/sree-shp/Fash">
                 <button>View Code</button>
               </a>
             </div>
